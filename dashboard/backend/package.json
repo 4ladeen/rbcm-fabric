@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dockerode": "^4.0.9",
+    "express": "^5.2.1",
+    "fabric-ca-client": "^2.2.4",
+    "fabric-network": "^2.2.14",
+    "js-yaml": "^4.1.1",
+    "systeminformation": "^5.28.3"
+  }
+}
