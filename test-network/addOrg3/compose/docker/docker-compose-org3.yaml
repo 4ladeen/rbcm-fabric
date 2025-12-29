@@ -8,6 +8,7 @@ version: '3.7'
 networks:
   test:
     name: fabric_test
+    external: true
 
 services:
 
