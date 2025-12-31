@@ -261,7 +261,7 @@ Profiles:
     <<: *ChannelDefaults
     Orderer:
       <<: *OrdererDefaults
-      OrdererType: rbcm
+      OrdererType: etcdraft
       EtcdRaft:
         Consenters:
           - Host: orderer.example.com
