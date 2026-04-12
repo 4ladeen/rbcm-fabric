@@ -30,5 +30,17 @@ config/
 external-chaincode/
 install-fabric.sh
 
+# Python virtualenvs (never commit these)
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Fabric wallet identity files (contain private key material)
+dashboard/backend/wallet/
+# Generated connection profiles (instance-specific TLS certs)
+dashboard/backend/connection-org1.yaml
+
 # override the ignore of all config/ folders
 !full-stack-asset-transfer-guide/infrastructure/sample-network/config
