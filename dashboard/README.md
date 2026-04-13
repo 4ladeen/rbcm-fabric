@@ -7,7 +7,7 @@ It exposes three REST endpoints consumed by the frontend.
 
 | Tool                | Version |
 |---------------------|---------|
-| Node.js             | ≥ 18    |
+| Node.js             | 18.x – 20.x LTS |
 | Hyperledger Fabric  | 2.x test-network running |
 | Docker              | accessible to the process running the server |
 
